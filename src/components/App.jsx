@@ -4,7 +4,7 @@ import { AzureMP } from "react-azure-mp";
 
 const appStyle = {
   fontFamily: "Consolas",
-}
+};
 
 const App = () => {
   const linkId = window.location.hash.substring(1);
@@ -16,8 +16,8 @@ const App = () => {
           {
             src: response.value[0].Value,
             type: "application/vnd.ms-sstr+xml",
-          }
-        ]
+          },
+        ];
         setSrcData(sourceData);
       })
       .catch((error) => {
@@ -28,10 +28,7 @@ const App = () => {
   return (
     <div style={appStyle}>
       {srcData ? (
-        <AzureMP
-          skin="amp-flush"
-          src={srcData}
-        />
+        <AzureMP skin="amp-flush" src={srcData} />
       ) : (
         <div>
           <h1>LiveStream unavailable.</h1>
