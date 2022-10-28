@@ -1604,6 +1604,11 @@ chrome-trace-event@^1.0.2:
   resolved "https://registry.yarnpkg.com/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz#1015eced4741e15d06664a957dbbf50d041e26ac"
   integrity sha512-p3KULyQg4S7NIHixdwbGX+nFHkoBiA4YQmyWtjb8XngSKV124nJmRysgAeujbUVb15vh+RvFUfCPqU7rXk+hZg==
 
+classnames@^2.2.6:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
+  integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
+
 clean-css@^5.2.2:
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-5.3.1.tgz#d0610b0b90d125196a2894d35366f734e5d7aa32"
@@ -3048,6 +3053,13 @@ raw-body@2.5.1:
     http-errors "2.0.0"
     iconv-lite "0.4.24"
     unpipe "1.0.0"
+
+react-azure-mp@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/react-azure-mp/-/react-azure-mp-1.0.5.tgz#1f5d61e76b0b8ce6a3b9a65a23169b6e1e0e4402"
+  integrity sha512-kjTzFUyMeeX+4NrOPrGRNWNP/k1xSKa6mM/9TFuoSwA5wILRd1fgj6j1al5GZn/6NtVRwDMA2lvRtmjbST2zMA==
+  dependencies:
+    classnames "^2.2.6"
 
 react-dom@^18.2.0:
   version "18.2.0"
