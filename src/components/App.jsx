@@ -9,11 +9,6 @@ const appStyle = {
 const App = () => {
   const linkId = window.location.hash.substring(1);
   const [srcData, setSrcData] = useState("");
-  const videoOptions = {
-    controls: true,
-    autoplay: true,
-    image: "https://cdn.bipul.in/bipul.in/images/meta.png",
-  };
   useEffect(() => {
     GetLinkInfo(linkId)
       .then((response) => {
@@ -36,7 +31,6 @@ const App = () => {
         <AzureMP
           skin="amp-flush"
           src={srcData}
-          options={videoOptions}
         />
       ) : (
         <div>
