@@ -42,10 +42,10 @@ const App = () => {
         <AzureMP skin="amp-flush" src={srcData} />
       ) : (
         <div style={textStyles}>
-          <div>Bipul is not LiveStreaming right now.</div>
+          <div>LiveStreaming unavailable.</div>
           <br/><br/>
           <div>
-            <img src={imageLink} style={imageStyles} alt="Bipul is not LiveStreaming right now."></img>
+            <img src={imageLink} style={imageStyles} alt="LiveStreaming unavailable."></img>
           </div>
         </div>
       )}
