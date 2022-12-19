@@ -6,7 +6,7 @@ module.exports = {
   entry: "./src/index.jsx",
   output: {
     path: path.join(__dirname, "/dist"), // the bundle output path
-    filename: "bundle.[hash].js", // the name of the bundle
+    filename: "bundle.js", // the name of the bundle
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -19,7 +19,7 @@ module.exports = {
     })
   ],
   devServer: {
-    port: 8080, // you can change the port
+    port: 3000, // you can change the port
   },
   module: {
     rules: [
