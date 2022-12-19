@@ -12,7 +12,7 @@ const imageStyles = {
 };
 
 const App = () => {
-  const imageLink = "https://www.bipul.in/images/NotLive.svg";
+  const imageLink = "https://www.bipul.in/images/not-live.svg";
   let linkId = window.location.hash.substring(1);
   const [srcData, setSrcData] = useState("");
   useEffect(() => {
