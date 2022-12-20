@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
+  mode: 'production',
   entry: "./src/index.jsx",
   output: {
     path: path.join(__dirname, "/dist"), // the bundle output path
